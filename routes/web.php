@@ -5,11 +5,15 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\HomeController;
 use \App\Http\Controllers\HizmetBilgiController;
+use App\Http\Controllers\SakinlerBilgiController;
 
 Route::get('/', [HomeController::class, 'index'])->name('homepage');
 
-// Hizmetler sayfası
+
 Route::get('/hizmetler/{id}', [HizmetBilgiController::class, 'show'])->name('hizmetler');
+Route::get('/sakinler', [SakinlerBilgiController::class, 'index'])->name('sakinler.index');
+Route::get('/sakinler/{id}', [SakinlerBilgiController::class, 'show'])->name('sakinler.show');
+
 
 
 

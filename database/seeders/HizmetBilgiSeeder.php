@@ -10,38 +10,49 @@ class HizmetBilgiSeeder extends Seeder
     public function run(): void
     {
         $bilgiler = [
-            ['hizmet_kategori_id' => 2, 'title' => 'Kütüphane Bağışı', 'description' => 'Yeni kitaplar ve materyaller temin edilmesi.', 'author' => 'Kültür ve Sanat Dairesi'],
-            ['hizmet_kategori_id' => 3, 'title' => 'Para Yardımı', 'description' => 'Maddi destek sağlanarak ihtiyaç sahiplerine yardım.', 'author' => 'Belediye Sosyal Hizmetler Müdürlüğü'],
-            ['hizmet_kategori_id' => 4, 'title' => 'Gıda Yardımı', 'description' => 'İhtiyaç sahiplerine temel gıda malzemeleri temini.', 'author' => 'Belediye Sosyal Hizmetler Müdürlüğü'],
-            ['hizmet_kategori_id' => 5, 'title' => 'Sağlık Yardımı', 'description' => 'Tıbbi malzeme ve ilaç yardımları.', 'author' => 'Sağlık Dairesi'],
-            ['hizmet_kategori_id' => 7, 'title' => 'Konser Organizasyonu', 'description' => 'Ünlü sanatçıların katılımıyla düzenlenen müzik etkinlikleri.', 'author' => 'Kültür ve Sanat Dairesi'],
-            ['hizmet_kategori_id' => 8, 'title' => 'Toplu Yemek Etkinlikleri', 'description' => 'Toplumsal kaynaşmayı sağlamak amacıyla düzenlenen yemek programları.', 'author' => 'Sosyal Hizmetler Müdürlüğü'],
-            ['hizmet_kategori_id' => 9, 'title' => 'Futbol Turnuvası', 'description' => 'Gençler için düzenlenen spor etkinlikleri.', 'author' => 'Spor ve Gençlik Hizmetleri'],
-            ['hizmet_kategori_id' => 12, 'title' => 'Kışlık Kıyafet Bağışı', 'description' => 'İhtiyaç sahiplerine kışlık giysi temin edilmesi.', 'author' => 'Sosyal Yardımlaşma Vakfı'],
-            ['hizmet_kategori_id' => 13, 'title' => 'Kitap Toplama Kampanyası', 'description' => 'Kütüphanelere ve okullara kitap bağışının teşvik edilmesi.', 'author' => 'Kültür ve Sanat Dairesi'],
-            ['hizmet_kategori_id' => 14, 'title' => 'Eğitim Yardımları', 'description' => 'Öğrencilere burs ve eğitim materyali temini.', 'author' => 'Eğitim ve Gençlik Komisyonu'],
-            ['hizmet_kategori_id' => 15, 'title' => 'Teknoloji Bağış Kampanyası', 'description' => 'Bilgisayar ve tablet bağışları ile eğitime destek sağlanması.', 'author' => 'Teknoloji Geliştirme Müdürlüğü'],
-                ['hizmet_kategori_id' => 16, 'title' => 'Ağaç Dikme Kampanyası', 'description' => 'Yeşil alanların artırılması amacıyla fidan dikimi.', 'author' => 'Çevre ve Orman Müdürlüğü'],
-                ['hizmet_kategori_id' => 17, 'title' => 'Temizlik Kampanyası', 'description' => 'Şehir genelinde temizlik bilinci oluşturmak için etkinlikler.', 'author' => 'Çevre ve Temizlik Birimi'],
-                ['hizmet_kategori_id' => 18, 'title' => 'Hayvan Barınağı Yardımı', 'description' => 'Barınaklardaki hayvanların bakım ve beslenme ihtiyaçlarının karşılanması.', 'author' => 'Veteriner İşleri Müdürlüğü'],
-                ['hizmet_kategori_id' => 19, 'title' => 'Kariyer Danışmanlığı', 'description' => 'İş arayanlar için rehberlik ve danışmanlık hizmetleri.', 'author' => 'İstihdam ve Kariyer Merkezi'],
-                ['hizmet_kategori_id' => 20, 'title' => 'Engelli Destek Programı', 'description' => 'Engelli bireylere yönelik destek ve eğitim programları.', 'author' => 'Engelli Hizmetleri Müdürlüğü'],
-                ['hizmet_kategori_id' => 21, 'title' => 'Spor Ekipmanları Bağışı', 'description' => 'Spor kulüplerine ve okullara ekipman desteği.', 'author' => 'Spor ve Gençlik Hizmetleri'],
-                ['hizmet_kategori_id' => 22, 'title' => 'Kan Bağışı Kampanyası', 'description' => 'Sağlık kurumlarıyla iş birliği içinde kan bağışı organizasyonları.', 'author' => 'Sağlık Dairesi'],
-                ['hizmet_kategori_id' => 23, 'title' => 'Kadın Destek Merkezi', 'description' => 'Kadınlara yönelik sosyal ve psikolojik destek hizmetleri.', 'author' => 'Sosyal Hizmetler Müdürlüğü'],
-                ['hizmet_kategori_id' => 24, 'title' => 'Mesleki Eğitim Kursları', 'description' => 'İş gücü piyasasına yönelik mesleki eğitim ve sertifikasyon programları.', 'author' => 'Eğitim ve İstihdam Merkezi'],
-                ['hizmet_kategori_id' => 25, 'title' => 'Deprem Yardım Kampanyası', 'description' => 'Afet bölgelerine yardım malzemesi temini ve destek.', 'author' => 'Afet ve Acil Durum Yönetimi Müdürlüğü'],
-                ['hizmet_kategori_id' => 26, 'title' => 'Geri Dönüşüm Projeleri', 'description' => 'Çevre bilincini artırmak ve geri dönüşümü teşvik etmek.', 'author' => 'Çevre ve Geri Dönüşüm Müdürlüğü'],
-                ['hizmet_kategori_id' => 27, 'title' => 'Ücretsiz Hukuki Danışmanlık', 'description' => 'Vatandaşlara ücretsiz hukuki destek sağlanması.', 'author' => 'Hukuk İşleri Müdürlüğü'],
-                ['hizmet_kategori_id' => 28, 'title' => 'Tiyatro Gösterimleri', 'description' => 'Sanatı teşvik etmek amacıyla ücretsiz tiyatro etkinlikleri.', 'author' => 'Kültür ve Sanat Dairesi'],
-                ['hizmet_kategori_id' => 29, 'title' => 'Yaşlı Bakım Hizmetleri', 'description' => 'Yaşlı bireylere evde bakım ve destek hizmetleri.', 'author' => 'Sosyal Hizmetler Müdürlüğü'],
-                ['hizmet_kategori_id' => 30, 'title' => 'Çocuk Şenlikleri', 'description' => 'Çocuklara yönelik eğlenceli etkinlikler ve oyunlar.', 'author' => 'Sosyal Hizmetler Müdürlüğü'],
-                ['hizmet_kategori_id' => 31, 'title' => 'Bisiklet Dağıtım Kampanyası', 'description' => 'Sağlıklı yaşamı teşvik etmek amacıyla bisiklet dağıtımı.', 'author' => 'Spor ve Gençlik Hizmetleri'],
-                ['hizmet_kategori_id' => 32, 'title' => 'İş Kurma Destek Programı', 'description' => 'Girişimcilere mali ve eğitim desteği sağlanması.', 'author' => 'Ekonomi ve Kalkınma Müdürlüğü'],
-                ['hizmet_kategori_id' => 33, 'title' => 'Gönüllülük Programları', 'description' => 'Toplum yararına projelerde gönüllü katılım teşvik edilmesi.', 'author' => 'Sosyal Hizmetler Müdürlüğü'],
-                ['hizmet_kategori_id' => 34, 'title' => 'Doğa Yürüyüşleri', 'description' => 'Sağlıklı yaşam ve çevre bilincini artırmak için doğa yürüyüşleri düzenlenmesi.', 'author' => 'Spor ve Gençlik Hizmetleri'],
-                ['hizmet_kategori_id' => 35, 'title' => 'Sanat Atölyeleri', 'description' => 'Sanatsal becerilerin geliştirilmesine yönelik atölye çalışmaları.', 'author' => 'Kültür ve Sanat Dairesi'],
 
+            ['hizmet_kategori_id' => 2, 'title' => 'Kütüphane Bağışı', 'description' => 'Yeni kitaplar ve materyaller temin edilmesi.', 'author' => 'Kültür ve Sanat Dairesi'],
+            ['hizmet_kategori_id' => 2, 'title' => 'Çocuk Kitapları Bağışı', 'description' => 'Okul öncesi çocuklar için kitap bağışı.', 'author' => 'Eğitim Dairesi'],
+
+            // Para Yardımı
+            ['hizmet_kategori_id' => 3, 'title' => 'Acil Para Yardımı', 'description' => 'Acil durumlar için maddi yardım desteği.', 'author' => 'Belediye Sosyal Hizmetler Müdürlüğü'],
+            ['hizmet_kategori_id' => 3, 'title' => 'Eğitim İçin Para Yardımı', 'description' => 'Eğitim harcamaları için maddi destek sağlanması.', 'author' => 'Eğitim ve Gençlik Komisyonu'],
+
+            // Gıda Yardımı
+            ['hizmet_kategori_id' => 4, 'title' => 'Yardım Gıda Paketleri', 'description' => 'İhtiyaç sahiplerine gıda paketi temini.', 'author' => 'Belediye Sosyal Hizmetler Müdürlüğü'],
+            ['hizmet_kategori_id' => 4, 'title' => 'Ramazan Gıda Yardımı', 'description' => 'Ramazan ayında ihtiyaç sahiplerine gıda yardım paketi.', 'author' => 'Sosyal Yardımlaşma Vakfı'],
+
+            // Sağlık Yardımı
+            ['hizmet_kategori_id' => 5, 'title' => 'Acil Sağlık Yardımı', 'description' => 'Acil durumlar için tıbbi malzeme temini.', 'author' => 'Sağlık Dairesi'],
+            ['hizmet_kategori_id' => 5, 'title' => 'Göz Tedavi Yardımı', 'description' => 'Göz hastalıkları için tedavi ve malzeme desteği.', 'author' => 'Sağlık Dairesi'],
+
+            // Konser Etkinlikleri
+            ['hizmet_kategori_id' => 7, 'title' => 'Ünlü Sanatçı Konseri', 'description' => 'Ünlü sanatçılarla konser etkinliği düzenlenmesi.', 'author' => 'Kültür ve Sanat Dairesi'],
+            ['hizmet_kategori_id' => 7, 'title' => 'Çocuk Konseri', 'description' => 'Çocuklara yönelik konser etkinliği.', 'author' => 'Eğitim ve Gençlik Komisyonu'],
+
+            // Yemek Etkinlikleri
+            ['hizmet_kategori_id' => 8, 'title' => 'Toplu İftar Etkinliği', 'description' => 'Ramazan ayında düzenlenen toplu iftar organizasyonu.', 'author' => 'Belediye Sosyal Hizmetler Müdürlüğü'],
+            ['hizmet_kategori_id' => 8, 'title' => 'Açık Hava Pikniği', 'description' => 'Açık hava pikniği düzenlenerek toplumsal kaynaşma sağlanması.', 'author' => 'Kültür ve Sanat Dairesi'],
+
+            // Spor Etkinlikleri
+            ['hizmet_kategori_id' => 9, 'title' => 'Futbol Turnuvası', 'description' => 'Gençler için düzenlenen futbol turnuvası.', 'author' => 'Spor ve Gençlik Hizmetleri'],
+            ['hizmet_kategori_id' => 9, 'title' => 'Basketbol Turnuvası', 'description' => 'Gençler için basketbol turnuvası düzenlenmesi.', 'author' => 'Spor ve Gençlik Hizmetleri'],
+
+            // Kıyafet Bağışı
+            ['hizmet_kategori_id' => 12, 'title' => 'Kışlık Kıyafet Bağışı', 'description' => 'İhtiyaç sahiplerine kışlık giysi temin edilmesi.', 'author' => 'Sosyal Yardımlaşma Vakfı'],
+            ['hizmet_kategori_id' => 12, 'title' => 'Yazlık Kıyafet Bağışı', 'description' => 'İhtiyaç sahiplerine yazlık giysi temin edilmesi.', 'author' => 'Sosyal Yardımlaşma Vakfı'],
+
+            // Kitap Bağışı
+            ['hizmet_kategori_id' => 13, 'title' => 'Kitap Toplama Kampanyası', 'description' => 'Kütüphanelere ve okullara kitap bağışının teşvik edilmesi.', 'author' => 'Kültür ve Sanat Dairesi'],
+            ['hizmet_kategori_id' => 13, 'title' => 'Okullara Kitap Bağışı', 'description' => 'Okullarda kitap eksikliği çeken öğrencilere kitap bağışı.', 'author' => 'Eğitim Dairesi'],
+
+            // Eğitim Yardımları
+            ['hizmet_kategori_id' => 14, 'title' => 'Burs Yardımı', 'description' => 'Öğrencilere verilen eğitim bursları.', 'author' => 'Eğitim ve Gençlik Komisyonu'],
+            ['hizmet_kategori_id' => 14, 'title' => 'Eğitim Materyali Yardımı', 'description' => 'Öğrencilere ders kitapları ve eğitim materyali temini.', 'author' => 'Eğitim Dairesi'],
+
+            // Teknoloji Bağışları
+            ['hizmet_kategori_id' => 15, 'title' => 'Tablet Bağışı', 'description' => 'Öğrencilere tablet ve eğitim cihazı temini.', 'author' => 'Teknoloji Geliştirme Müdürlüğü'],
+            ['hizmet_kategori_id' => 15, 'title' => 'Bilgisayar Bağışı', 'description' => 'Okullar ve öğrencilere bilgisayar bağışı yapılması.', 'author' => 'Teknoloji Geliştirme Müdürlüğü'],
         ];
 
         foreach ($bilgiler as $bilgi) {

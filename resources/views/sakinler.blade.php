@@ -6,7 +6,6 @@
             <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-lg sm:rounded-lg">
                 <div class="p-6 text-gray-900 dark:text-gray-100">
 
-
                     <!-- Bandle Şehri Sakinleri Bölümü -->
                     <section class="bg-green-50 py-4 mt-8">
                         <div class="container text-center">
@@ -21,7 +20,8 @@
                                 <div class="card-body">
                                     <h5 class="card-title">Lulu – Sihirli Destekçi</h5>
                                     <p class="card-text">Lulu, fantastik dünyaları keşfetmeyi seven hayalperest bir yordledir.</p>
-                                    <a href="#" class="btn btn-primary">Devamını Oku</a>
+                                    <a href="{{ route('sakinler.show', 1) }}" class="btn btn-primary">Devamını Oku</a>
+
                                 </div>
                             </div>
                         </div>
@@ -31,7 +31,8 @@
                                 <div class="card-body">
                                     <h5 class="card-title">Veigar – Minik Usta Karanlık</h5>
                                     <p class="card-text">Veigar, yordle türünün sıradanlığından sıkılarak karanlık büyüye yöneldi.</p>
-                                    <a href="#" class="btn btn-primary">Devamını Oku</a>
+                                    <a href="{{ route('sakinler.show', 1) }}" class="btn btn-primary">Devamını Oku</a>
+
                                 </div>
                             </div>
                         </div>
@@ -41,7 +42,8 @@
                                 <div class="card-body">
                                     <h5 class="card-title">Tristana – Patlayan Topçu</h5>
                                     <p class="card-text">Bandle Şehri’nin güvenliğini koruma görevini üstlenen Tristana, sevimli ama kararlı bir savaşçıdır.</p>
-                                    <a href="#" class="btn btn-primary">Devamını Oku</a>
+                                    <a href="{{ route('sakinler.show', 1) }}" class="btn btn-primary">Devamını Oku</a>
+
                                 </div>
                             </div>
                         </div>
@@ -52,7 +54,8 @@
                                     <div class="card-body">
                                         <h5 class="card-title">Corki – Cesur Bombardıman Ustası</h5>
                                         <p class="card-text">Corki, Bandle Şehri’nde yaşayan bir havacılık tutkunudur.</p>
-                                        <a href="#" class="btn btn-primary">Devamını Oku</a>
+                                        <a href="{{ route('sakinler.show', 1) }}" class="btn btn-primary">Devamını Oku</a>
+
                                     </div>
                                 </div>
                             </div>
@@ -62,7 +65,8 @@
                                     <div class="card-body">
                                         <h5 class="card-title">Kled – Noxus’un Çılgını</h5>
                                         <p class="card-text"> Kled, Noxus’un savaş alanlarında efsaneleşmiş bir yordle.</p>
-                                        <a href="#" class="btn btn-primary">Devamını Oku</a>
+                                        <a href="{{ route('sakinler.show', 1) }}" class="btn btn-primary">Devamını Oku</a>
+
                                     </div>
                                 </div>
                             </div>
@@ -72,7 +76,8 @@
                                     <div class="card-body">
                                         <h5 class="card-title">Kennen – Fırtına’nın Kalbi</h5>
                                         <p class="card-text">Ionialı bir ninja olan Kennen, tarikatının en hızlı üyesidir.</p>
-                                        <a href="#" class="btn btn-primary">Devamını Oku</a>
+                                        <a href="{{ route('sakinler.show', 1) }}" class="btn btn-primary">Devamını Oku</a>
+
                                     </div>
                                 </div>
                             </div>
