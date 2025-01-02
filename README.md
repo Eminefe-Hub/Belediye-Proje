@@ -82,3 +82,18 @@ While working on this project, I faced challenges with integrating real-time fea
 
 This project is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
+# My Photographs
+`Homepage` ![Ekran görüntüsü 2025-01-02 160140](https://github.com/user-attachments/assets/17530e9f-c7c8-489a-a9dd-a512f59ded4d)
+`President` ![Ekran görüntüsü 2025-01-02 160237](https://github.com/user-attachments/assets/d0986338-4169-424d-bf5e-949d03e93def)
+`Login` ![Ekran görüntüsü 2025-01-02 160320](https://github.com/user-attachments/assets/6e30d21d-f7d5-4953-b6e1-261d4f91d7ff)
+`Register` ![Ekran görüntüsü 2025-01-02 160336](https://github.com/user-attachments/assets/0aef64b4-259c-467d-aa1b-37fc8b2162dc)
+`City dweller`  ![Ekran görüntüsü 2025-01-02 160429](https://github.com/user-attachments/assets/0346344f-eed5-4786-b79f-b068bf0484a5)
+`Service Information` ![Ekran görüntüsü 2025-01-02 160458](https://github.com/user-attachments/assets/06fb99fa-14c4-4fcd-b57e-0b54d24fa7e4)
+
+
+
+
+
+
+
+
